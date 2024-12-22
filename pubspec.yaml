@@ -1,0 +1,29 @@
+name: translator
+description: "A new Flutter project."
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  http: any
+  provider: 
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  flutter_dotenv:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  mockito: any
+
+
+
+flutter:
+  uses-material-design: true
