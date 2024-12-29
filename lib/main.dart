@@ -5,12 +5,10 @@ import 'package:translator/provider/translation_provider.dart';
 import 'ui/translation_screen.dart';
 import 'package:provider/provider.dart';
 // import 'package:shared_preferences/shared_preferences.dart';
-import 'package:flutter_dotenv/flutter_dotenv.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
-  await dotenv.load(fileName: '.env');
 
   List<Language> availableLanguages =
       await TranslatorService().fetchLanguages();

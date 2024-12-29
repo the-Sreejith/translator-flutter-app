@@ -1,7 +1,7 @@
 # Translator App
 
 ## Overview
-The Translator App is a simple and efficient tool designed to help users translate text between different languages. It leverages modern translation APIs to provide accurate and fast translations.
+The Translator App is a simple and efficient tool designed to help users translate text between different languages. It leverages RapidAPI's APIs to provide accurate and fast translations.
 
 ## Features
 - Translate text between multiple languages
@@ -23,24 +23,23 @@ To install the Translator App, follow these steps:
     ```bash
     flutter pub get
     ```
-4. Paste in your API_Key in .env file
-    ```
-    API_KEY='asdfasdf'
-    API_HOST='asdfasdf.rapidapi.com'
-
+4. Create a lib/constants/api_keys.dart file and Put in your API_Key
+    ```dart
+    const API_KEY = '';
+    const API_HOST = '';
     ```
 5. Run the flutter app
-    ```
+    ```bash
     flutter run
     ```
 
 
 ## Screenshots
 ### Home Page
-![Translation page](screenshots/home_page.png)
+![Translation page](screenshots/home.png)
 
 ### Translation Page
-![Language Selector](screenshots/translation_page.png)
+![Language Selector](screenshots/language_selector.png)
 
 
 ## License

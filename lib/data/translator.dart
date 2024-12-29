@@ -1,11 +1,11 @@
 import 'dart:convert';
-import 'package:flutter_dotenv/flutter_dotenv.dart';
+import 'package:translator/constants/api_keys.dart';
 import 'package:http/http.dart' as http;
 import 'package:translator/models/language.dart';
 
 class TranslatorService {
-  final String apiKey = dotenv.env['API_KEY']??'';
-  final String apiHost = dotenv.env['API_HOST']??'';
+  final String apiKey = API_KEY;
+  final String apiHost = API_HOST;
 
   
 
